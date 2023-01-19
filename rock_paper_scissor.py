@@ -28,9 +28,13 @@ scissors = '''
 #Write your code below this line 👇
 import random
 
+# store the game images into a list
 game_images = [rock, paper, scissors]
+
+# input the user choice and store it as an integer
 user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
 
+# possible if statments for all the combinations
 if user_choice >= 3 or user_choice <0:
     print("You lose, you typed an invalid number! Please try again")  
 else:    
